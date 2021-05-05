@@ -1,0 +1,67 @@
+.episodes {
+    
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: auto;
+    background: linear-gradient(#0000FF, #0000A3);
+    background-repeat: no-repeat;
+    background-size: 100% 61%;
+    padding: 10px;
+    clip-path: polygon(0 1.1%, 100% 1%, 100% 100%, 0 100%);
+    transform: skewY(-5deg);
+    padding-bottom: 10px;
+    
+
+    h2{ 
+        
+        font-family: 'IBMPlexSans', sans-serif;
+        color: white;
+        font-size: 36px;
+        font-weight: 400;
+        margin: 60px 0 5% 1%;
+        transform: skewY(5deg);
+        
+    }
+
+    .audios{
+        display: grid;
+        grid-row-gap: 10px;
+        margin-bottom: 40px;
+        transform: skewY(5deg);
+    }
+ //   .img-phone{
+  //      transform: skewY(5deg);
+    //}
+    .info{
+        transform: skewY(5deg);
+        padding: 20px 10px ;
+  //  .text{
+   //         transform: skewY(5deg);
+   //     }
+        h3{
+            font-size: 36px;
+            font-family: 'IBMPlexSans', sans-serif;
+            font-weight: 400;
+            margin-bottom: 9px;
+            color: #060A24;
+            padding-top: 25px;
+            
+        }
+        p{
+            text-align: justify;
+            line-height: 150%;
+            color: #060A24;
+            
+            
+
+        }
+
+
+    }
+
+
+
+}
+
+
+  
