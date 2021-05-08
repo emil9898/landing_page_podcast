@@ -10,8 +10,6 @@
     clip-path: polygon(0 1.1%, 100% 1%, 100% 100%, 0 100%);
     transform: skewY(-5deg);
     padding-bottom: 10px;
-    
-
     h2{ 
         
         font-family: 'IBMPlexSans', sans-serif;
@@ -28,16 +26,22 @@
         grid-row-gap: 10px;
         margin-bottom: 40px;
         transform: skewY(5deg);
+        iframe{
+            width: 100%;
+            background-color: transparent;
+            border: 0px;
+        }
     }
- //   .img-phone{
-  //      transform: skewY(5deg);
-    //}
+ 
     .info{
         transform: skewY(5deg);
         padding: 20px 10px ;
-  //  .text{
-   //         transform: skewY(5deg);
-   //     }
+        .img1{
+            .img-phone{
+                width: 100%;
+            }
+
+        }
         h3{
             font-size: 36px;
             font-family: 'IBMPlexSans', sans-serif;
@@ -51,15 +55,10 @@
             text-align: justify;
             line-height: 150%;
             color: #060A24;
-            
-            
-
         }
 
 
     }
-
-
 
 }
 

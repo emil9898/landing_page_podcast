@@ -180,10 +180,20 @@ header .respmenu input:not(:checked) ~ .fa-times {
           transform: skewY(5deg);
 }
 
+.episodes .audios iframe {
+  width: 100%;
+  background-color: transparent;
+  border: 0px;
+}
+
 .episodes .info {
   -webkit-transform: skewY(5deg);
           transform: skewY(5deg);
   padding: 20px 10px;
+}
+
+.episodes .info .img1 .img-phone {
+  width: 100%;
 }
 
 .episodes .info h3 {
@@ -211,6 +221,10 @@ header .respmenu input:not(:checked) ~ .fa-times {
 
 .guests .imginvited {
   line-height: 0;
+}
+
+.guests .imginvited img {
+  width: 100%;
 }
 
 .topics {
@@ -456,11 +470,6 @@ footer a {
         -ms-flex-align: center;
             align-items: center;
   }
-  /*
-    .episodes .info .text h3{
-        padding: 0 0 30px 40px;
-        font-size: 48px;
-    }*/
   .episodes .info .text p {
     font-size: 18px;
     font-family: 'IBMPlexMono', sans-serif;
